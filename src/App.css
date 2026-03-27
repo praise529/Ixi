@@ -61,3 +61,53 @@ button {
   border: var(--Outline);
   background: var(--Main);
 }
+button.White {
+  background: var(--White);
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 2rem;
+  aspect-ratio: 1 / 1;
+  border: var(--Outline);
+  border-radius: 0.5rem;
+}
+input[type="checkbox"]:checked {
+  /* background-image: url(); */
+  background: var(--Main);
+}
+
+
+
+.Top-Bar {
+  width: 100%;
+  padding: 1.5rem;
+  position: fixed;
+  top: 0; text-align: center;
+  background: var(--White);
+  border-bottom: var(--Outline);
+}
+
+
+.Main {
+  margin-left: 2rem;
+  margin-top: 6rem;
+}
+
+
+
+.Tasks {
+  width: 90%;
+  gap: 1rem;
+  align-self: center;
+  border-radius: 2rem;
+  /* border: var(--Outline); */
+}
+.Tasks .Task {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 1.25rem;
+  padding: 1.5rem 2rem;
+  border: var(--Outline);
+}
