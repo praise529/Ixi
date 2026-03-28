@@ -54,6 +54,23 @@ h6 {
   border: var(--Outline);
 }
 
+.Column {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.Column button {
+  align-self: center;
+  width: max-content;
+}
+.Column button.W100 {
+  width: 100%;
+}
+
+.Center {
+  text-align: center;
+}
+
 button {
   font-weight: 500;
   border-radius: 0.5rem;
@@ -95,7 +112,7 @@ input[type="checkbox"]:checked {
 
 .Main {
   margin-left: 2rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 
