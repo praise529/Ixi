@@ -68,14 +68,18 @@ button.White {
 input[type="checkbox"] {
   appearance: none;
   width: 2rem;
+  position: relative;
   aspect-ratio: 1 / 1;
   border: var(--Outline);
   border-radius: 0.5rem;
 }
 input[type="checkbox"]:checked {
-  /* background-image: url(); */
   background: var(--Main);
 }
+/* input[type="checkbox"]::before {
+  content: "s";
+  position: absolute;
+} */
 
 
 
